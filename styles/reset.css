@@ -1,3 +1,10 @@
+@font-face {
+    src: url('https://fonts.gstatic.com/s/crimsontext/v17/wlp2gwHKFkZgtmSR3NB0oRJfajhz.woff2') format('woff2');
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 body,html,h1,h2,h3,h4,h5,h6,
 p,div,dl,dt,dd,ul,ol,li,video,blockquote,hr,a,address,
 span,em,img,strong,sub,sup,del,s,q,mark,code,
@@ -6,7 +13,7 @@ form,fieldset,legend,input,textarea,label,select,option,button {
     line-height:1.0; font-size:1.0em; font-weight:normal; 
     margin:0; padding:0; font-style:normal;
     box-sizing:border-box;
-    font-family:'';
+    font-family:'Noto Sans KR', 'Crimson Text';
 }
 ol, li, ul {list-style:none;}
 a {color:#000; text-decoration:none;}
